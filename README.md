@@ -9,6 +9,7 @@
 <h2>Tecnologias Utilizadas</h2>
 <div style="display: inline_block"><br>
   <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" alt="gdscript" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Godot_icon.svg">
 </div>
 
 <h2>Estrutura do Projeto</h2>
@@ -18,6 +19,20 @@
 <h2>Funcionalidades</h2>
 
 <h2>Capturas de Tela</h2>
+<img src="" alt="Tela inicial" width="500">
+<p>Figura 1: Tela inicial do programa CodeStart</p>
+
+<img src="" alt="Tela como jogar" width="500">
+<p>Figura 1: Tela "como jogar" do programa CodeStart</p>
+
+<img src="" alt="Tela menu" width="500">
+<p>Figura 1: Tela menu do programa CodeStart</p>
+
+<img src="" alt="Tela quiz" width="500">
+<p>Figura 1: Tela quiz do programa CodeStart</p>
+
+<img src="" alt="Tela final" width="500">
+<p>Figura 1: Tela final do programa CodeStart</p>
 
 <h2>Autores</h2>
 <ul>
