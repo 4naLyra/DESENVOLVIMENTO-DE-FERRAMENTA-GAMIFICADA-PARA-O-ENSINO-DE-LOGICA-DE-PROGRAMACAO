@@ -65,3 +65,22 @@
 <p>Instituto Federal de Educação Ciência e Tecnologia da Bahia - Campus Valença</p>
 
 <h2>Referências</h2>
+<p>AGUIAR, Gabriela Maria Cunha; MENEZES, Lailson Silva de. Ensino da lógica de programação através da gamificação nos anos finais do ensino fundamental II na zona rural no município de Capitão Poço (Pará). In: WORKSHOP SOBRE EDUCAÇÃO EM COMPUTAÇÃO (WEI), 27., 2019, Belém. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2019. p. 1-10. DOI: https://doi.org/10.5753/wei.2019.6643. Disponível em: https://sol.sbc.org.br/index.php/wei/article/view/6643. Acesso em: 29 maio 2025.
+BORGES, Martha Kaschny. Educação e cibercultura: perspectivas para a emergência de novos paradigmas educacionais. Sociedade da informação, educação digital e inclusão. Florianópolis: Insular, v. 1, p. 53-86, 2007.
+BESSA, Cecilia França Dib de Oliveira. Desenvolvimento de software gamificado para fomentar a mobilidade compartilhada em ambiente universitário. 2020. 84 f. Trabalho de Conclusão de Curso (Bacharelado em Engenharia de Software ) – Faculdade UnB Gama, Universidade de Brasília, Brasília, 2020. Disponível em: https://bdm.unb.br/handle/10483/26359. Acesso em: 29 maio 2025.
+
+NETO, Valter dos Santos M.; FEITOSA, Rodrigo Miranda; CARDOSO, Carlos Costa. Dificuldades de aprendizagem no ensino de programação: um relato de experiência utilizando mineração de dados educacionais. In: SEMINÁRIO INTERNACIONAL DE EDUCAÇÃO, TECNOLOGIA E SOCIEDADE: ENSINO HÍBRIDO, 24., 2019, Taquara. Anais [...]. Taquara: FACCAT, 2019. Disponível em: https://seer.faccat.br/index.php/redin/article/view/1548. Acesso em: 29 maio 2025.
+
+VIANA, Jesiel. Python, Ferramentas Visuais e Gamificação em Introdução a Programação. Medium, 13 out. 2017. Disponível em: https://medium.com/@jesielviana/python-ferramentas-visuais-e-gamifica%C3%A7%C3%A3o-em-introdu%C3%A7%C3%A3o-a-programa%C3%A7%C3%A3o-b988bd560654. Acesso em: 29 maio 2025.
+
+LEAL, Marcel. 3 plataformas de gamificação para utilizar na educação. Marcel Leal Blog, [2023?]. Disponível em: https://www.marcelleal.com.br/3-plataformas-de-gamificacao-para-utilizar-na-educacao/. Acesso em: 29 maio 2025.
+
+XAVIER, Guto. 4 aplicativos para aprender programação de forma gamificada e interativa. LinkedIn, 11 abr. 2023. Disponível em: https://pt.linkedin.com/pulse/4-aplicativos-para-aprender-programa%C3%A7%C3%A3o-de-forma-e-guto-xavier. Acesso em: 29 maio 2025.
+
+BARDIN, L. Análise de conteúdo. São Paulo: Edições 70, 2016.
+FILATRO, A.; CAIRO, S. Gamificação na educação. São Paulo: Pearson, 2020.
+GIL, A. C. Métodos e técnicas de pesquisa social. 7. ed. São Paulo: Atlas, 2019.
+MEDEIROS, R. P. et al. Dificuldades no ensino-aprendizagem de programação: Um mapeamento sistemático. In: Anais do XXVI Workshop sobre Educação em Computação, 2018.
+PRESSMAN, R. S. Engenharia de software. 10. ed. Porto Alegre: AMGH, 2021.
+
+</p>
