@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Projeto Acadêmico - Mundo Verde</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h3>DESENVOLVIMENTO DE UMA FERRAMENTA GAMIFICADA PARA O ENSINO DE LÓGICA DE PROGRAMAÇÃO PARA O PRIMEIRO ANO DO IFBA CAMPUS VALENÇA</h3>
+      <nav>
+        <ul>
+          <li><a href="introducao.html">Introdução</a></li>
+          <li><a href="metodologia.html">Metodologia</a></li>
+          <li><a href="fundamentacao.html">Fundamentação Teórica</a></li>
+          <li><a href="analise.html">Análise dos Resultados</a></li>
+          <li><a href="telas.html">Telas da Gamificação</a></li>
+        </ul>
+      </nav>
+
+  </header>
+
+  <main>
+    <h2>Resumo</h2>
+    <p>
+As ferramentas gamificadas utilizam elementos de jogos em contextos educacionais, promovendo engajamento e motivação. Diante das dificuldades comuns no aprendizado inicial de programação, este projeto desenvolveu um recurso digital interativo com estratégias gamificadas para tornar o estudo mais eficaz. A metodologia envolveu uma pesquisa bibliográfica e outra de campo para identificar os principais desafios enfrentados pelos alunos do primeiro ano do IFBA Campus Valença.
+Com base nesses dados foi criada uma ferramenta com desafios, recompensas e feedbacks alinhados aos objetivos pedagógicos. Os testes realizados apontaram aumento do interesse e melhor compreensão dos conteúdos de lógica de programação, especialmente entre estudantes sem experiência prévia.
+Espera-se que a aplicação da ferramenta gamificada possa apoiar o ensino, tornando a aprendizagem mais atrativa e adequada ao perfil dos alunos, e contribuindo para reduzir dificuldades iniciais e estimular a permanência no curso.
+    </p>
+    <h2>Quem somos?</h2>
+    <section id="page_nos">
+      <section id="button1">
+        <button id="setaesquerda" onclick="trás()"><img src="imgs/Esquerda.png" style="width: 60px; height: 200px;"></button>
+      </section>
+      <section id="quemsomos">
+        <ul>
+          <li>
+            <figure id="pessoa1">
+              <img id="p1" src="imgs/Ana.png" alt="Ana Clara França Varjão">
+              <figcaption id="p1text"><h3>Ana Clara França</h3><p>Estudante do IFBA campus Valença no terceiro ano do curso de informática, desenvolvedora Python, GDscript e WEB</p></figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure id="pessoa2">
+              <img id="p2" src="imgs/Carla.png" alt="Carla Aparecida Araujo Magalhães">
+              <figcaption id="p2text"><h3>Carla Magalhães</h3><p>Estudante do IFBA campus Valença no terceiro ano do curso de informática, desenvolvedora Python e WEB</p></figcaption>
+            </figure>
+          </li>
+        </ul>
+        
+        
+      </section>
+      <section id="button2">
+        <button id="setadireita" onclick="frente()"><img src="imgs/direita.png" style="width: 60px; height: 200px;"></button>
+      </section>
+    </section>
+    
+    
+  </main>
+
+
+  <footer>
+
+  </footer>
+
+  <script>
+    let imagespeople = 1;
+    let figcaption1 = document.getElementById("p1text");
+    let figcaption2 = document.getElementById("p2text")
+    function frente() {
+      imagespeople = imagespeople + 1;
+      if (imagespeople === 3) {
+        imagespeople = 1;
+      }
+      updateimgs();
+    }
+    function trás() {
+      imagespeople = imagespeople - 1;
+      if (imagespeople === 0) {
+        imagespeople = 2;
+      }
+      updateimgs();
+    }
+    function updateimgs(){
+      if (imagespeople === 2){
+          document.getElementById("p1").src = "imgs/Vivi.png";
+          document.getElementById("p2").src = "imgs/Thales.png";
+          figcaption1.innerHTML = '<h3>Evilane Santos</h3><p>Estudante do IFBA campus Valença no terceiro ano do curso de informática, Desenvolvedora Python e Web</p>';
+          figcaption2.innerHTML = '<h3>Thales Lins</h3><p>Estudante do IFBA campus Valença no terceiro ano do curso de informática, Desenvolvedor Python e Web</p>';
+        }
+      else if (imagespeople ===1){
+        document.getElementById("p1").src = "imgs/Ana.png";
+        document.getElementById("p2").src = "imgs/Carla.png";
+        figcaption1.innerHTML = '<h3>Ana Clara França</h3><p>Estudante do IFBA campus Valença no terceiro ano do curso de informática, desenvolvedora Python, GDscript e WEB</p>';
+        figcaption2.innerHTML = '<h3>Carla Magalhães</h3><p>Estudante do IFBA campus Valença no terceiro ano do curso de informática, desenvolvedora Python e WEB</p>';
+      }
+    }
+    
+  </script>
+</body>
+</html>
